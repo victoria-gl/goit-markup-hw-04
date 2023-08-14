@@ -588,6 +588,41 @@ address {
 
 /* Photos block */
 
+.portfolio-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: #4d5ae5;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition-property: transform;
+  transition-duration: 400ms;
+  transition-delay: 0;
+  transition-timing-function: ease;
+}
+
+.porfolio-list-item:hover .overlay {
+  transform: translateY(0);
+}
+
+.overlay-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
