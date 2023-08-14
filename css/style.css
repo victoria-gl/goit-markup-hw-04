@@ -421,6 +421,14 @@ address {
   padding: 100px 0;
 }
 
+.webstudio-container {
+  margin-right: 120px;
+}
+
+.footer-contaner {
+  display: flex;
+}
+
 .footer-link {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -447,6 +455,38 @@ address {
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 264px;
+}
+
+.footer-sm-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.socialmedia-container {
+  display: block;
+}
+.footer-socialmedias {
+  display: flex;
+  gap: 16px;
+}
+.footer-socialmedia-item {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-socialmedia-logo {
+  fill: #fff;
 }
 
 /* Portfolio */
