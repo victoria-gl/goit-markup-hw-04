@@ -236,6 +236,22 @@ address {
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
 }
+
+.advantages-icons-box {
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advantages-icons {
+}
+
 .advantages-list-title {
   color: #2e2f42;
   font-family: 'Roboto', sans-serif;
@@ -334,6 +350,14 @@ address {
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-sm-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
 
 /* Footer */
