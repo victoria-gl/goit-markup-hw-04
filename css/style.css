@@ -374,6 +374,46 @@ address {
   fill: #ffffff;
 }
 
+/* Customers */
+
+.customers-title {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 111.111%;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
+  padding: 0;
+}
+
+.customers-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.customers-list-item {
+  width: 168px;
+  height: 88px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+}
+
+.customers-list-logo {
+  fill: #8e8f99;
+}
+
 /* Footer */
 
 .footer {
