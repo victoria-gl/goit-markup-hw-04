@@ -663,6 +663,7 @@ address {
 }
 
 .overlay-text {
+  position: absolute;
   color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
@@ -680,6 +681,7 @@ address {
   background-color: #ffffff;
   stroke: #e7e9fc;
   width: calc((100% - 48px) / 3);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .porfolio-list-item:hover,
