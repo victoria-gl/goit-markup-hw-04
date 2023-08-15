@@ -495,7 +495,7 @@ address {
 }
 
 .customers-list-logo {
-  fill: #8e8f99;
+  fill: currentColor;
   margin: 16px 32px;
 }
 
