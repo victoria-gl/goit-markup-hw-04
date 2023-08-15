@@ -565,7 +565,10 @@ address {
   align-items: center;
 }
 
-.footer-sm-link:hover,
+.footer-sm-link:hover {
+  background-color: #31d0aa;
+}
+
 .footer-sm-link:focus {
   background-color: #31d0aa;
 }
