@@ -668,7 +668,8 @@ address {
   transition-timing-function: ease;
 }
 
-.porfolio-list-item:hover .overlay {
+.porfolio-list-item:hover .overlay,
+.porfolio-list-item:focus .overlay {
   transform: translateY(0);
 }
 
