@@ -571,6 +571,7 @@ address {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sm-link:hover {
@@ -589,7 +590,6 @@ address {
   gap: 16px;
 }
 .footer-socialmedia-item {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socialmedia-item:hover,
